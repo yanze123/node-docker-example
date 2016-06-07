@@ -2,7 +2,7 @@ FROM daocloud.io/library/node
 
 RUN mkdir -p /usr/src/app
 
-WORKID /usr/src/app
+WORKDIR /usr/src/app
 
 COPY package.json /usr/src/app
 
